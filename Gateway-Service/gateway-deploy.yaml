@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: gateway-service
-          image: labo_gateway_images
-          imagePullPolicy: Never
+          image: wafiqhajar/labo_gateway_images:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8888
           env:

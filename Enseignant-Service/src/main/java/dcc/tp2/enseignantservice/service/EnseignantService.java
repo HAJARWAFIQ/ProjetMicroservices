@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-public class EnseignantService {
+public class EnseignantService  {
 
     private EnseignantRepository enseignantRepository;
     private ChercheurRestFeign chercheurRestFeign;

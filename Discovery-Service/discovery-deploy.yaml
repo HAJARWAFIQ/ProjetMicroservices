@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: discovery-service
-          image: wafiqhajar/labo_discovery_images:latest
+          image: wafiqhajar/discovery-service:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8761

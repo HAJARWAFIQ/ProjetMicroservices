@@ -7,4 +7,5 @@ public interface EnseignantRepository extends JpaRepository<Enseignant,Long> {
 
     Enseignant findEnseignantByEmail(String email);
 
+
 }
